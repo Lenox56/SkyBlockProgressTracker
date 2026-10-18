@@ -78,8 +78,8 @@ curl -fsSL https://get.docker.com | sh
 ### 4. Projekt holen und konfigurieren
 
 ```bash
-git clone https://github.com/Lenox56/HypixelTracker.git
-cd HypixelTracker/server
+git clone https://github.com/Lenox56/SkyBlockProgressTracker.git
+cd SkyBlockProgressTracker/server
 cp .env.example .env
 nano .env        # HYPIXEL_API_KEY und DOMAIN eintragen
 chmod 600 .env   # nur root darf den Key lesen
